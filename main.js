@@ -3,11 +3,44 @@
 // 1. Define a function called "divideByTwo". It should accept one parameter called "number".
 //    The function should divide the number by two and output the answer.
 
+console.log("Question 1")
+
+var divideByTwo = function(number) {
+  console.log(number/2);
+};
+
+var number = 10
+
+divideByTwo(number);
+
 // 2. Define a function called "greeting". It should accept two parameters, which will be names.
 //    The function should output the a greeting to both people.
 
+console.log("Question 2")
+
+var greeting = function(personName) {
+  console.log("Hello " + personName)
+}
+
+var name1 = "Joanie";
+var name2 = "Chachi";
+
+greeting(name1);
+greeting(name2);
+
 // 3. You use Amazon Subscribe & Save to have six cans of cashews automatically sent to you each month, but the price keeps changing.
 //    Write a function that takes the price per unit and calculates the total for you each month.
+
+console.log("Question 3")
+
+var pricePerMonth = function(pricePerUnit, daysPerMonth) {
+  console.log(pricePerUnit * daysPerMonth)
+}
+
+var pricePerUnit = 25;
+var daysPerMonth = 31;
+
+pricePerMonth(pricePerUnit, daysPerMonth);
 
 // 4. Write a function that accepts the following array and separates the people into two teams.
 //    No names next to eachother in the array should be on the same team.
@@ -16,7 +49,34 @@
 // 5. Define a function called "quarter". It accepts one parameter called "number".
 //    The function will return a value which is one quarter of the number provided.
 
+console.log("Question 5")
+
+var quarter = function(number) {
+  console.log(number/4);
+}
+  
+var number = 20;
+
+quarter(number);
+
 // 6. Define functions called "area" and "perimeter". They should both accept two parameters and calculate the area and perimeter of a rectangle.
+
+console.log("Question 6")
+
+var area = function(width, height){
+  console.log(width * height)
+}
+
+
+var perimeter = function(width, height) {
+  console.log((width*2)+(height*2))
+}
+
+var width = 4;
+var height = 5;
+
+area(width,height);
+perimeter(width,height);
 
 // 7. Write a function called "sleepings", it should accept one parameter, an integer called "hours".
 //    Write a conditional statement inside of the function. If the number of hours is more than 8, print a statement to the console about getting enough rest.
