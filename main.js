@@ -43,7 +43,11 @@ var daysPerMonth = 31;
 pricePerMonth(pricePerUnit, daysPerMonth);
 
 // 4. Write a function that accepts the following array and separates the people into two teams.
-//    No names next to eachother in the array should be on the same team.
+//    No names next to eachother in the array should be on the same team. 
+//s1. Create odd and even empty arrays
+//s2. Start with a loop because it will send the server through the array according to your specifications
+//s3. Start pushing teammates into each array using odd.push/even.push
+ 
       teammates = ["Harold", "Bob", "Sue", "Grady", "Notorious B.I.G.", "JavaCrypt", "Weird guy in the back", "Gary", "Carol", "Hipster Tim", "Janet"]
 
 // 5. Define a function called "quarter". It accepts one parameter called "number".
