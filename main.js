@@ -98,6 +98,17 @@ sleeping(hours);
 //    HINT: You may need to google how to turn a string into an integer. 
 //          Note: Strings can be treated as arrays too.
 
+//Figured out how to have the function spit out an integer, 
+//and I know I need to put in reduce() somewhere, but I can't figure out at what point.
+
+var askNumber = prompt("Fill in three numbers, and I will go away! Yay!");
+
+var addNumbers = function(askNumber) {
+  console.log(parseInt(askNumber));
+}
+
+addNumbers(askNumber);
+
 // 9. You've finally gotten around to counting the change in your piggy bank. Write a function that accepts four parameters (quarters, dimes, nickels, and pennies).
 //     The function should take each number of coins and multiply it times each coin's value.
 //     Finally, it should return the total amount of change you have in the following format: "$32.77"
