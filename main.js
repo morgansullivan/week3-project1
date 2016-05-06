@@ -116,6 +116,16 @@ addNumbers(askNumber);
 
 // 10. Develop a function that determines a person's age by prompting them for their birth year.
 
+var birthyear = prompt("What year were you born?");
+
+var age = function(currentyear, birthyear) {
+  console.log(currentyear-birthyear)
+}
+
+var currentyear = 2016;   
+
+age(currentyear, birthyear);
+
 
 // 11. Develop a function that cleans up a phone number entered by a user.
 //     The rules are as follows:
