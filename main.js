@@ -82,6 +82,18 @@ perimeter(width,height);
 //    Write a conditional statement inside of the function. If the number of hours is more than 8, print a statement to the console about getting enough rest.
 //    If the number of hours is less than 8, print a statement recommending the user get more shut eye.
 
+var sleeping = function(hours){
+  if (hours >= 8) {
+    console.log("Rise and shine! You're not tired!");
+  } else {
+      console.log("Sleepy... Zzzzzz....");
+  }
+}
+
+var hours = 10;
+
+sleeping(hours);
+
 // 8. Prompt a user to enter a three digit number. Write a function that adds the numbers together.
 //    HINT: You may need to google how to turn a string into an integer. 
 //          Note: Strings can be treated as arrays too.
