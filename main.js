@@ -108,7 +108,8 @@ sleeping(hours);
 var askNumber = prompt("Fill in three numbers, and I will go away! Yay!");
 
 var addNumbers = function(askNumber) {
-  console.log(parseInt(askNumber));
+  var x = +askNumber[0] + +askNumber[1] + +askNumber[2]
+  console.log(x);
 }
 
 addNumbers(askNumber);
